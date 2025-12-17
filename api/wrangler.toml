@@ -1,0 +1,9 @@
+name = "cookiecloud"
+main = "app.js"
+compatibility_date = "2025-12-16"
+
+# Run `wrangler kv namespace create COOKIE_DATA` to get the ID
+[[kv_namespaces]]
+binding = "COOKIE_DATA"
+id = "YOUR_KV_ID"
+preview_id = "YOUR_KV_ID"
